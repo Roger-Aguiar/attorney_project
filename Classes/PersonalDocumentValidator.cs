@@ -1,7 +1,7 @@
 public class PersonalDocumentValidator
 {
     private string? Cpf { get; set; }
-    private int firstDigit;
+    private int verificationDigit;
     private int digit;
 
     public PersonalDocumentValidator(string? cpf)
@@ -9,7 +9,12 @@ public class PersonalDocumentValidator
         Cpf = cpf;
     }
 
-    public bool ValidateCPF() => (FirstDigit() && SecondDigit() == true ? true : false);
+    public bool ValidateCPF()
+    {
+        bool firstDigit = FirstDigit();
+        bool secondDigit = SecondDigit();
+        return firstDigit && secondDigit == true ? true : false;
+    } 
 
     private bool FirstDigit()
     {
@@ -17,23 +22,22 @@ public class PersonalDocumentValidator
 
         for (int i = 0; i < Cpf?.Length - 2; i++)
         {
-            firstDigit = firstDigit + (digit * Convert.ToInt32(Cpf?[i].ToString()));
+            verificationDigit = verificationDigit + (digit * Convert.ToInt32(Cpf?[i].ToString()));
             digit--;
         }
-
-        return (((firstDigit * 10) % 11) == (Cpf?.Length - 2));
+        return ((((verificationDigit * 10) % 11) == Convert.ToInt32(Cpf?[9].ToString())) ? true : false);
     }
 
     private bool SecondDigit()
     {
-        digit = 11;        
+        digit = 11;
+        verificationDigit = 0;  
 
         for (int i = 0; i < Cpf?.Length - 1; i++)
         {
-            firstDigit = firstDigit + (digit * Convert.ToInt32(Cpf?[i].ToString()));
+            verificationDigit = verificationDigit + (digit * Convert.ToInt32(Cpf?[i].ToString()));
             digit--;
         }
-
-        return ((firstDigit = (firstDigit * 10)) == (Cpf?.Length - 1));
+        return ((((verificationDigit * 10) % 11) == Convert.ToInt32(Cpf?[10].ToString())) ? true : false);;
     }
 }
