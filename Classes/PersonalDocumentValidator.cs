@@ -1,6 +1,8 @@
 public class PersonalDocumentValidator
 {
     private string? Cpf { get; set; }
+    private int firstDigit;
+    private int digit;
 
     public PersonalDocumentValidator(string? cpf)
     {
@@ -11,8 +13,7 @@ public class PersonalDocumentValidator
 
     private bool FirstDigit()
     {
-        int firstDigit = 0;
-        int digit = 10;
+        digit = 10;
 
         for (int i = 0; i < Cpf?.Length - 2; i++)
         {
@@ -25,8 +26,7 @@ public class PersonalDocumentValidator
 
     private bool SecondDigit()
     {
-        int firstDigit = 0;
-        int digit = 11;
+        digit = 11;        
 
         for (int i = 0; i < Cpf?.Length - 1; i++)
         {
