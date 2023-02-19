@@ -13,3 +13,7 @@ C:\dev\Attorney\obj\Debug\net6.0\refint\Attorney.dll
 C:\dev\Attorney\obj\Debug\net6.0\Attorney.pdb
 C:\dev\Attorney\obj\Debug\net6.0\Attorney.genruntimeconfig.cache
 C:\dev\Attorney\obj\Debug\net6.0\ref\Attorney.dll
+C:\dev\Attorney\bin\Debug\net6.0\Syncfusion.Compression.Base.dll
+C:\dev\Attorney\bin\Debug\net6.0\Syncfusion.Licensing.dll
+C:\dev\Attorney\bin\Debug\net6.0\Syncfusion.Pdf.Base.dll
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.csproj.CopyComplete
