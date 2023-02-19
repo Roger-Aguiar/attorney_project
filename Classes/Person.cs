@@ -23,4 +23,5 @@ public class Person
     public Address? Address { get; set; }
     public Guid Id { get; set; }
     public int IdPerson { get; set; }
+    public string? OabNumber { get; set; }
 }
