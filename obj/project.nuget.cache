@@ -1,8 +1,33 @@
 {
   "version": 2,
-  "dgSpecHash": "D+kZ+zueod7j8SZJrGs9w4UsKhy9re9izov6GtlLXkCbl39xI6jDbms1BdB/+D6+cvrs2JvaI1jqZ18duVrpVQ==",
+  "dgSpecHash": "bU8IcurXINi0h1wrtkf0rAsIht4qOdtYH3hZUDzyh/EjJ76cCm9IY07T6PehBsgE+KCzVI7qvuHRSfK3Sq6U4w==",
   "success": true,
   "projectFilePath": "C:\\dev\\Attorney\\Attorney.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\SQUADRA\\.nuget\\packages\\syncfusion.compression.base\\20.4.0.50\\syncfusion.compression.base.20.4.0.50.nupkg.sha512",
+    "C:\\Users\\SQUADRA\\.nuget\\packages\\syncfusion.licensing\\20.4.0.50\\syncfusion.licensing.20.4.0.50.nupkg.sha512",
+    "C:\\Users\\SQUADRA\\.nuget\\packages\\syncfusion.pdf.winforms\\20.4.0.50\\syncfusion.pdf.winforms.20.4.0.50.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Syncfusion.Compression.Base 20.4.0.50' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Syncfusion.Compression.Base",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Syncfusion.Pdf.WinForms 20.4.0.50' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Syncfusion.Pdf.WinForms",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,15 @@
+C:\dev\Attorney\bin\Debug\net6.0\Attorney.exe
+C:\dev\Attorney\bin\Debug\net6.0\Attorney.deps.json
+C:\dev\Attorney\bin\Debug\net6.0\Attorney.runtimeconfig.json
+C:\dev\Attorney\bin\Debug\net6.0\Attorney.dll
+C:\dev\Attorney\bin\Debug\net6.0\Attorney.pdb
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.csproj.AssemblyReference.cache
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.AssemblyInfoInputs.cache
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.AssemblyInfo.cs
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.csproj.CoreCompileInputs.cache
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.dll
+C:\dev\Attorney\obj\Debug\net6.0\refint\Attorney.dll
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.pdb
+C:\dev\Attorney\obj\Debug\net6.0\Attorney.genruntimeconfig.cache
+C:\dev\Attorney\obj\Debug\net6.0\ref\Attorney.dll
